@@ -1,0 +1,50 @@
+# ninja log v5
+901	8772	668358978	CMakeFiles/blur_u_img.dir/mainwindow.cpp.obj	1a677794e41b1e0f
+9	878	668358971	build.ninja	d94a653157f6f0b9
+26	3594	668373829	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+26	3594	668373829	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+26	3594	668373829	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+886	9451	668358980	CMakeFiles/blur_u_img.dir/blur_u_img_autogen/mocs_compilation.cpp.obj	70216f1cf04137a5
+26	3594	668373829	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+3611	10343	668373836	CMakeFiles/blur_u_img.dir/main.cpp.obj	f04aca89efe8acb1
+10345	12572	668373838	blur_u_img.exe	17dea8a569ae9ef9
+26	2430	668374077	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+26	2430	668374077	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+26	2430	668374077	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+26	2430	668374077	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+2447	9563	668374085	CMakeFiles/blur_u_img.dir/main.cpp.obj	f04aca89efe8acb1
+9565	12261	668374087	blur_u_img.exe	17dea8a569ae9ef9
+25	3956	668374453	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+25	3956	668374453	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+25	3956	668374453	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+25	3956	668374453	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+3972	9175	668374458	CMakeFiles/blur_u_img.dir/main.cpp.obj	f04aca89efe8acb1
+9176	12645	668374461	blur_u_img.exe	17dea8a569ae9ef9
+23	3925	668374793	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+23	3925	668374793	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+23	3925	668374793	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+23	3925	668374793	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+89	2848	668374818	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+89	2848	668374818	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+89	2848	668374818	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+89	2848	668374818	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+2862	10737	668374826	CMakeFiles/blur_u_img.dir/main.cpp.obj	f04aca89efe8acb1
+10738	14808	668374829	blur_u_img.exe	17dea8a569ae9ef9
+28	5374	668376294	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+28	5374	668376294	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+28	5374	668376294	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+28	5374	668376294	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+5391	14274	668376303	CMakeFiles/blur_u_img.dir/main.cpp.obj	f04aca89efe8acb1
+14276	17765	668376306	blur_u_img.exe	17dea8a569ae9ef9
+85	3459	668376461	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+85	3459	668376461	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+85	3459	668376461	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+85	3459	668376461	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+3476	11180	668376469	CMakeFiles/blur_u_img.dir/main.cpp.obj	f04aca89efe8acb1
+11181	14016	668376471	blur_u_img.exe	17dea8a569ae9ef9
+26	3612	668376554	blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+26	3612	668376554	blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+26	3612	668376554	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/timestamp	6f9314a3e6f0bc79
+26	3612	668376554	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/build-blur_u_img-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/blur_u_img_autogen/mocs_compilation.cpp	6f9314a3e6f0bc79
+3628	13020	668376563	CMakeFiles/blur_u_img.dir/main.cpp.obj	f04aca89efe8acb1
+13021	16188	668376566	blur_u_img.exe	17dea8a569ae9ef9
