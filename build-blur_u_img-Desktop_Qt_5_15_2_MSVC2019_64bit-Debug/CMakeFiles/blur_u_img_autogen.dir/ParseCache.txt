@@ -87,5 +87,5 @@ C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/blur_u_
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtWidgets/qwidget.h
-C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/blur_u_img/main.cpp
 C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/blur_u_img/mainwindow.cpp
+C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.3 online bluring/blur_u_img/main.cpp

@@ -50,11 +50,9 @@ int main(int argc, char *argv[])
     slider.setMinimum(0);
     slider.setMaximum(10);
     slider.setOrientation(Qt::Horizontal);
-//    QDesktopWidget *desc = QApplication::desktop();
     label.setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
 
-    label.setText("Hello, wassssap?");
 
     QVBoxLayout vbox(&w);
     QHBoxLayout hbox;
@@ -66,41 +64,45 @@ int main(int argc, char *argv[])
     vbox.addLayout(&hbox);
 
 
-    QImage image("filePath");
+    QImage image;
     QString filePath;
     QObject::connect(&open, &QPushButton::clicked,[&label, &image, &filePath]() {
         filePath = QFileDialog::getOpenFileName(nullptr,
-                                                        "Chose image",
+                                                        "Choose image",
                                                         "..\\",
                                                         "files (*.jpg , *.png)");
 
-        label.setPixmap(QPixmap::fromImage(blurImage(image, 8)).scaled(
-                                            label.width(),
-                                            label.height(), Qt::KeepAspectRatio));
+        image.load(filePath);
+        if (image.width()>label.width() || image.height()>label.height()) {
+            label.setPixmap(QPixmap::fromImage(image.scaled(
+                                           label.width(),
+                                           label.height(), Qt::KeepAspectRatio)));
+        } else {
+            label.setPixmap(QPixmap::fromImage(image));
+        }
+        label.setAlignment(Qt::AlignCenter);
 
-
-        label.setPixmap(QPixmap("filePath"));
-        //label->show();
     });
 
     QObject::connect(&slider, &QSlider::valueChanged, [&image, &slider, &label]() {
-        label.setPixmap(QPixmap::fromImage(blurImage(image, slider.value())));
-
-
+        if (image.width()>label.width() || image.height()>label.height()) {
+            label.setPixmap(QPixmap::fromImage(blurImage(image, slider.value()).scaled(
+                                               label.width(),
+                                               label.height(), Qt::KeepAspectRatio)));
+        } else {
+            label.setPixmap(QPixmap::fromImage(blurImage(image, slider.value())));
+        }
     });
 
-    QObject::connect (&save, &QPushButton::clicked, [&label, &filePath, &slider]() {
+    QObject::connect (&save, &QPushButton::clicked, [&label]() {
        QString savePath = QFileDialog::getSaveFileName(nullptr,
                                                        "Save image",
                                                        "..\\");
-       //QPixmap pic = label->pixmap(Qt::ReturnByValue);
-       //pic.save(savePath);
-       auto bluredPic = blurImage(QImage(filePath), slider.value());
-       bluredPic.save(savePath);
+       QPixmap pic = label.pixmap(Qt::ReturnByValue);
+       pic.save(savePath);
+
     });
 
-
-//  w.resize(desc->width(), desc->height()-50);
     w.showMaximized();
     return a.exec();
 }
